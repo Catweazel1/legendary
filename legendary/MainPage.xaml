@@ -9,16 +9,16 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <StackPanel>
-        <TextBlock Name="txtblkTitle" FontSize="48pt" Text=""/>
+        <TextBlock Name="txtblkTitle" FontSize="48pt" Text="Lorum Ipsum" Margin="10, 0, 0, 0"/>
         <StackPanel Orientation="Horizontal">
-            <TextBlock TextWrapping="Wrap" Width="250">
+            <TextBlock TextWrapping="Wrap" Width="250" Margin="10">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a pretium mi. Integer dapibus sodales cursus. Sed ac nisi dignissim, rhoncus sapien sit amet, pulvinar lacus. Donec erat tortor, blandit et erat non, tincidunt pharetra purus. Cras eget nisi condimentum, auctor massa molestie, mattis eros. In non mi arcu. Curabitur dignissim faucibus efficitur. Ut aliquam pretium justo, posuere facilisis tellus dictum vel. Suspendisse vitae eros quis erat vestibulum tempus. Phasellus quis ex sit amet justo iaculis dapibus vel ut metus. Nulla in lacinia velit, sit amet ultricies elit.
             </TextBlock>
-            <TextBlock TextWrapping="Wrap" Width="500">
+            <TextBlock TextWrapping="Wrap" Width="500" Margin="10">
                 Quisque elementum est leo, in pretium justo porttitor sit amet. Donec faucibus libero eget volutpat dapibus. Praesent condimentum vel odio vitae fermentum. Nullam ac rutrum enim, quis varius lorem. Donec massa lacus, finibus at imperdiet et, gravida eget nunc. Maecenas mattis nisl sapien, a efficitur lacus pretium id. Proin vitae augue purus. Curabitur faucibus tellus vitae consequat consectetur. Donec ultrices convallis ante, vitae dignissim lectus sollicitudin a. Donec et sapien velit. Integer dignissim elementum aliquet. 
 Sed quis nisi tellus. Etiam lobortis sollicitudin mi. Sed eget elit sit amet justo dictum auctor. Aenean rhoncus eget turpis sed egestas. Nam tortor enim, iaculis sed mauris consectetur, varius elementum metus. Sed eleifend libero ac lacus lobortis gravida. Phasellus malesuada aliquam vulputate. Donec commodo finibus velit sit amet porttitor. Curabitur rhoncus ultricies lectus, et laoreet arcu. Mauris eget luctus neque. Maecenas faucibus sem et dignissim elementum. Nunc iaculis lectus ut libero tincidunt viverra. In orci orci, ultrices ut metus a, interdum consequat dui. Sed id velit elementum, aliquam metus sit amet, scelerisque magna. Donec imperdiet egestas metus id convallis. Vestibulum condimentum suscipit nibh dictum egestas.
             </TextBlock>
-            <StackPanel Orientation="Horizontal">
+            <StackPanel Orientation="Horizontal" Margin="10">
                 <Rectangle Height="200" Width="200" Fill="Blue" VerticalAlignment="Top"/>
                 <StackPanel>
                     <Rectangle Height="100" Width="100" Fill="Red"/>
